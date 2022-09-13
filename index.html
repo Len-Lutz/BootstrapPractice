@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Len's Travel Site</title>
+
+    <!-- Required meta tags and Bootstrap CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto+Condensed&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/default.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary navbar-dark">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item active">
+                        <a class="nav-link" data-value="travel" href="./index.html">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-value="bf20" href="./bf19.html">Balloon&nbsp;Fiesta&nbsp2019</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-value="bf21" href="./bf21.html">Balloon&nbsp;Fiesta&nbsp2021</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" style="margin-top: 70px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="animate__animated animate__backInDown">Welcome to my Travel Page</h1>
+                <p class="center">This page is about where I want to travel.<br></p>
+                <p class="center">The other pages are from when I stayed home!<br></p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 15px">
+            <div class="col-md-6">
+                <div class=" mx-1 p-2 border border-primary rounded-lg">
+                    <h5 class="center">Here are some places I'd Like to visit.<br><br></h5>
+                    <img src="./images/WorldTravel.jpg" class="img-fluid float-right travelpic" alt="World Travel">
+                    <ul>
+                        <li>
+                            <a href="http://www.spain.info/en_US/" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" width="50">
+                                Spain</a>
+                        </li><br>
+                        <li>
+                            <a href="http://www.italia.it/en/home.html" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" width="50">
+                                Italy</a>
+                        </li><br>
+                        <li>
+                            <a href="http://www.arubatourism.com/" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Aruba.svg"
+                                    width="50"> Aruba</a>
+                        </li><br>
+                        <li>
+                            <a href="https://www.travelalaska.com/" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+                                    width="50"> Alaska</a>
+                        </li>
+                    </ul><br>
+
+                    <table style="margin: auto;">
+                        <tr>
+                            <th>&nbsp;Destination&nbsp;</th>
+                            <th>&nbsp;Capital&nbsp;</th>
+                            <th>&nbsp;Official Language&nbsp;</th>
+                        </tr>
+                        <tr>
+                            <td>Spain</td>
+                            <td>Madrid</td>
+                            <td>Spanish</td>
+                        </tr>
+                        <tr>
+                            <td>Italy</td>
+                            <td>Rome</td>
+                            <td>Italian</td>
+                        </tr>
+                        <tr>
+                            <td>Aruba</td>
+                            <td>Oranjestad</td>
+                            <td>Dutch</td>
+                        </tr>
+                        <tr>
+                            <td>Alaska</td>
+                            <td>Juneau</td>
+                            <td>English</td>
+                        </tr>
+                    </table><br>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class=" mx-1 p-2 border border-primary rounded-lg">
+                    <h5 class="center">Where do you want to visit?<br></h5>
+                    <div class="container">
+                        <form class="form-horizontal">
+
+                            <div class="form-group">
+                                <label for="name" class="control-label col-xs-1">Name:</label>
+                                <div class="col-xs-2">
+                                    <input class="form-control" type="text" id="name" name="name"
+                                        placeholder="Full Name" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                Select any that apply:<br>
+                                <input type="checkbox" id="spain" name="spain">
+                                <label for="spain" class="control-label col-xs-1">Spain&nbsp;&nbsp;</label>
+
+                                <input type="checkbox" id="france" name="france">
+                                <label for="france">France&nbsp;&nbsp;</label>
+
+                                <input type="checkbox" id="portugal" name="portugal">
+                                <label for="portugal">Portugal&nbsp;&nbsp;</label>
+
+                                <input type="checkbox" id="china" name="china">
+                                <label for="china">China</label>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="type" class="control-label col-xs-2">What type of location do you
+                                    prefer?</label>
+                                <div class="col-xs-1">
+                                    <select class="form-control" id="type" name="type">
+                                        <option value="beach">Beach</option>
+                                        <option value="mountains">Mountains</option>
+                                        <option value="city" selected>City</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="bio" class="control-label col-xs-2">Your Bio:</label>
+                                <div class="col-xs-3">
+                                    <textarea class="form-control" id="bio" name="bio" rows="4">Tell me a bit about yourself.</textarea>
+                                </div>
+                            </div>
+                            <p class="center">
+                                <input style="margin: auto;" type="submit" value="Ok Go!">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer class="footer mt-auto py-3 bg-primary">
+        <div class="container">
+            <p class="text-center text-white" style="font-size: 12pt;">Copyright &nbsp;&copy;&nbsp;
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script> &nbsp;Len Lutz
+            </p>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

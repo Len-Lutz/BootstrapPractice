@@ -1,0 +1,153 @@
+h1,
+h3,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+div > p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18pt;
+    line-height: 120%;
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;height: 50px;
+    z-index: 10;
+}
+
+img {
+    max-width: fit-content;
+    max-height: 600px;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.showBox {
+    box-shadow: 5px 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.float-none {
+    float: none;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.img-fluid.travelpic {
+    max-width: 45%;
+    height: auto;
+    margin-right: 40px;
+}
+
+.fitcontent {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    left: 0;
+    top: 50%;
+}
+
+.menu {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: darkblue;
+    margin: 3px;
+    padding: 10px 5px;
+}
+
+.menuFoot {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: darkblue;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 5px;
+}
+
+.menu ul,
+.menuFoot ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    align-content: left;
+    padding-left: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.menu li a,
+.menuFoot li a {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 3px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.menu li a:hover,
+.menuFoot li a:hover {
+    background-color: deepskyblue;
+    color: darkblue;
+}
+
+li.inline-list {
+    display: inline;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+#hdr-fig {
+    float: right;
+    display: inline;
+    position: relative;
+    top: -15px;
+    vertical-align: super;
+    background-color: red;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: -5;
+    /*    margin-bottom: 10px; */
+    padding: 3px 3px 3px 15px;
+}
+
+#hdr-fig-caption {
+    color: white;
+    font-size: 10pt;
+    text-align: right;
+    margin-left: -10px;
+}

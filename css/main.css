@@ -1,0 +1,30 @@
+body {
+	background-color: skyblue;
+	margin-bottom: 75px;
+}
+
+footer {
+	background-color: darkblue;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+	align-content: center;
+}
+
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	}
+}
